@@ -76,16 +76,16 @@
                   >
                 </li>
                 <li class="nav-item line">
-                  <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="#about">About Me</a>
                 </li>
                 <li class="nav-item line">
-                  <a class="nav-link" href="#">What I Do</a>
+                  <a class="nav-link" href="#what_do">What I Do</a>
                 </li>
                 <li class="nav-item line">
-                  <a class="nav-link" href="#">My Resume</a>
+                  <a class="nav-link" href="#resume">My Resume</a>
                 </li>
                 <li class="nav-item line">
-                  <a class="nav-link" href="#">Contact Me</a>
+                  <a class="nav-link" href="#contact">Contact Me</a>
                 </li>
               </ul>
             </div>
@@ -123,16 +123,16 @@
                   >
                 </li>
                 <li class="nav-item line">
-                  <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="#about">About Me</a>
                 </li>
                 <li class="nav-item line">
-                  <a class="nav-link" href="#">What I Do</a>
+                  <a class="nav-link" href="#what_do">What I Do</a>
                 </li>
                 <li class="nav-item line">
-                  <a class="nav-link" href="#">My Resume</a>
+                  <a class="nav-link" href="#resume">My Resume</a>
                 </li>
                 <li class="nav-item line">
-                  <a class="nav-link" href="#">Contact Me</a>
+                  <a class="nav-link" href="#contact">Contact Me</a>
                 </li>
               </ul>
             </div>
@@ -143,41 +143,33 @@
       <section class="carousel container">
         <div class="carousel_content">
           <div class="container">
-            <div class="">
               <div class="wrap-subtitle">
                 <span>I Am Dang Minh Hieu</span>
               </div>
-            </div>
-            <h3 class="">
-              <span class="pxl-wrap-text-type">
-                <span class="typed-strings" style="display: none">
-                  <p>FREELANCER</p>
-                  <p>PROGRAMMER</p>
-                </span>
-                <span class="typed">FREELANCER</span>
-                <span class="typed-cursor">|</span>
-              </span>
-            </h3>
+              <h1><span class="auto-type"></span></h1>
           </div>
+          
           <div class="container">
             <div class="row">
               <div class="nation col-4">
+                <p>Việt Nam</p>
+                <p>My Country</p>
+              </div>
+              <div class="nation col-4">
                 <p>Hưng Yên</p>
-                <p>Bodin, Chauveau</p>
+                <p>Where i Grown up</p>
               </div>
               <div class="nation col-4">
                 <p>Hà Nội</p>
-                <p>Bodin, Chauveau</p>
-              </div>
-              <div class="nation col-4">
-                <p>Việt Nam</p>
-                <p>Bodin, Chauveau</p>
+                <p>Where i living</p>
               </div>
             </div>
           </div>
         </div>
-        <a href="#" class="" style="opacity: 1"><span class="scroll"></span></a>
       </section>
+      <div class="mouseScroll">
+        <a href="#about" class="scrollDown" style="opacity: 1"><span class="scroll"></span></a>
+      </div>
     </div>
 
     <div class="social-page d-flex flex-column">
@@ -194,7 +186,7 @@
     </div>
 
     <!-- about me  -->
-    <section class="about_me container">
+    <section class="about_me container" id="about">
       <div class="heading animate__animated animate__fadeInDown">
         <h3>About Me</h3>
         <div class="space_border"></div>
@@ -238,7 +230,7 @@
 
     <!-- what i do  -->
 
-    <section class="what_do container">
+    <section class="what_do container" id="what_do">
       <div class="heading animate__animated animate__fadeInDown">
         <h3>What I Do</h3>
         <div class="space_border"></div>
@@ -275,7 +267,7 @@
 
     <!-- my resume  -->
 
-    <section class="my_resume container">
+    <section class="my_resume container" id="resume">
       <div class="heading animate__animated animate__fadeInDown">
         <h3>My Resume</h3>
         <div class="space_border"></div>
@@ -370,7 +362,7 @@
 
     <!-- contact me  -->
 
-    <section class="contact container">
+    <section class="contact container" id="contact">
       <div class="heading animate__animated animate__fadeInDown">
         <h3>Contact Me</h3>
         <div class="space_border"></div>
@@ -436,6 +428,11 @@
       </div>
     </section>
 
+    <!-- back to top  -->
+    <a href="#" class="back_to_top cd-top text-replace js-cd-top">
+      <i class="fa fa-angle-up"></i>
+  </a>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -455,6 +452,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <!-- back to top js  -->
+    <script src="./js/util.js"></script>
+    <script src="./js/main_backToTop.js"></script>
+
+    <!-- typing js  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 
     <script src="./js/main.js"></script>
   </body>
